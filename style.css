@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.container-div{
+    display: inline-block;
+    background: rgb(0, 116, 124);
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    border: 15px;
+    border-style: ridge;
+    border-color: rgb(5, 97, 97);
+    width: 250px;
+    height: 250px;
+    color: rgb(176, 250, 255);
+}
+.container-div:nth-child(2){
+    background: rgb(0, 71, 224); 
+    border-style: ridge;
+    border-color: rgb(20, 14, 73); 
+}
+.container-div:nth-child(3){
+    background: rgb(236, 0, 205); 
+    border-style: ridge;
+    border-color: rgb(165, 0, 165); 
+}
+.container-div__p{
+    color: mintcream;
+    font-size: 20px;
+}
+.container-div__p-p{
+    color: mintcream;
+    font-size: 20px;
+}
